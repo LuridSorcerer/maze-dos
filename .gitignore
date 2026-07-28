@@ -1,0 +1,10 @@
+# Borland Turbo C++ Build Artifacts
+*.OBJ
+*.EXE
+
+# Borland Turbo C++ Desktop state file
+*.DSK
+
+# Code backup files
+*.BAK
+*.~*
