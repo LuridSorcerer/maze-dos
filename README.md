@@ -25,3 +25,7 @@ To play the game, compile it (see above), and start it from DOS.
 	
 The player controls the ASCII smiley face and attempts to nagivate it
 through the maze. Use the arrow keys to move, and reach the goal. 
+
+## Why?
+
+Reject modernity, embrace tradition.
