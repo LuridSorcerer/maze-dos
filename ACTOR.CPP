@@ -1,4 +1,4 @@
-#include "player.h"
+#include "actor.h"
 #include "map.h"
 
 Player::Player() {

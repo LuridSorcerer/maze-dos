@@ -2,7 +2,7 @@
 #include <conio.h>
 
 #include "map.h"
-#include "player.h"
+#include "actor.h"
 
 const int map_offset_x = 10;
 const int map_offset_y = 3;
@@ -21,8 +21,10 @@ int main() {
 	/* Variables */
 	Map m;
 	Player p;
+	Player g;
 
 	p.teleport(map_w/2, map_h/2);
+	g.teleport(map_w-1, map_h/2);
 
 	/* Game loop */
 	char ch;
@@ -32,6 +34,7 @@ int main() {
 		clrscr();
 		m.render(map_offset_x, map_offset_y);
 		p.render(map_offset_x, map_offset_y);
+		g.render(map_offset_x, map_offset_y);
 
 		/* Display instructions for the player */
 		gotoxy(ui_x, ui_y);
