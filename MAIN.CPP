@@ -20,11 +20,8 @@ int main() {
 
 	/* Variables */
 	Map m;
-	Player p;
-	Player g;
-
-	p.teleport(map_w/2, map_h/2);
-	g.teleport(map_w-1, map_h/2);
+	Actor p(map_w/2, map_h/2, 0x02);
+	Actor g(map_w-2, map_h/2, '*');
 
 	/* Game loop */
 	char ch;

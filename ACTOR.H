@@ -6,15 +6,16 @@
 
 class Map; /* forward declaration */
 
-class Player {
+class Actor {
 private:
 	int  x;
 	int  y;
 	char c;
 
 public:
-	Player();
-	~Player();
+	Actor();
+	Actor(int,int,char);
+	~Actor();
 
 	void render(int,int);
 	void move(int,int,Map&);
