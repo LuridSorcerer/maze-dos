@@ -4,6 +4,7 @@
 
 # Borland Turbo C++ Desktop state file
 *.DSK
+*.SWP
 
 # Code backup files
 *.BAK
